@@ -13,3 +13,13 @@
 # > Hello there
 # > Hello there
 # > Hello there
+# def p_times(input, num_times =1):
+
+
+def p_times(statement, num):
+    for i in range (0, num):
+        print(statement)
+
+
+# Call the function
+p_times('string', 5)
